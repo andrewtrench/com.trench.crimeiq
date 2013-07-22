@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:shrinkColumns="*"  
+    android:stretchColumns="*" 
+    android:background="#ffffff">
+    <!-- header for table -->
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal"> 
+        <TextView 
+            android:id="@+id/CrimeTablePrecinct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Row 1"
+            android:layout_span="3"
+            android:padding="18dip"
+            android:background="#b0b0b0"
+            android:textColor="#000"/> 
+    </TableRow> 
+    <!--  crime category row -->
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal"> 
+        <TextView 
+            android:id="@+id/CrimeTableCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Row 2"
+            android:layout_span="3"
+            android:padding="18dip"
+            android:background="#b0b0b0"
+            android:textColor="#000"/> 
+    </TableRow> 
+     
+    <!-- data rows -->
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal"> 
+        <TextView 
+            android:id="@+id/Incidents2012"
+            android:text="2012 Incidents"
+            android:layout_weight="1" 
+            android:background="#b0b0b0"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+             
+        <TextView 
+            android:id="@+id/Results2012" 
+            android:text="results"
+            android:layout_weight="1" 
+            android:background="#a09f9f"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/> 
+    </TableRow>   
+     <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal"> 
+        <TextView 
+            android:id="@+id/Incidents2011"
+            android:text="2011 Incidents"
+            android:layout_weight="1" 
+            android:background="#b0b0b0"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+             
+        <TextView 
+            android:id="@+id/Results2011" 
+            android:text="results"
+            android:layout_weight="1" 
+            android:background="#a09f9f"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/> 
+    </TableRow>   
+    
+     <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal"> 
+        <TextView 
+            android:id="@+id/Pop2012"
+            android:text="Estimated Pop."
+            android:layout_weight="1" 
+            android:background="#b0b0b0"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+             
+        <TextView 
+            android:id="@+id/PopResults" 
+            android:text="results"
+            android:layout_weight="1" 
+            android:background="#a09f9f"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/> 
+    </TableRow>   
+     <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal"> 
+        <TextView 
+            android:id="@+id/Rate2012"
+            android:text="2012 Rate/10000"
+            android:layout_weight="1" 
+            android:background="#b0b0b0"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+             
+        <TextView 
+            android:id="@+id/RateResults2012" 
+            android:text="results"
+            android:layout_weight="1" 
+            android:background="#a09f9f"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/> 
+    </TableRow>
+    
+     <Button
+        android:id="@+id/nearbyButton"
+        android:text="Nearby Areas"
+        android:onClick="viewNearby"
+        />
+
+     <Button
+         android:id="@+id/shareButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:onClick="shareIt"
+         android:text="Share" />
+    
+</TableLayout>

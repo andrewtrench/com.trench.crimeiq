@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CrimeIQ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Where are you?</string>
+	<string name="locateAddressButton">Locate Address</string>
+	<string name="locatePhoneButton">Locate Phone</string>
+	<string name="getRiskButton">Get My Risk!</string>
+	<string name="setButton">Crime</string>
+	<string name="crime_prompt">Choose crime</string>
+	<string name="addressHint">Enter address or get phone location</string>
+	<string name="submitAddress">Submit address</string>
+	<string-array 
+	    name="crime_arrays">
+        <item>Murder</item>
+		<item>Total Sexual Crimes</item>
+		<item>Attempted murder</item>
+		<item>Assault with the intent to inflict grievous bodily harm</item>
+		<item>Common assault</item>
+		<item>Common robbery</item>
+		<item>Robbery with aggravating circumstances</item>
+		<item>Malicious damage to property</item>
+		<item>Burglary at non-residential premises</item>
+		<item>Burglary at residential premises</item>
+		<item>Theft of motor vehicle and motorcycle</item>
+		<item>Theft out of or from motor vehicle</item>
+		<item>Stock-theft</item>
+		<item>Illegal possession of firearms and ammunition</item>
+		<item>Drug-related crime</item>
+		<item>Driving under the influence of alcohol or drugs</item>
+		<item>All theft not mentioned elsewhere</item>
+		<item>Commercial crime</item>
+		<item>Shoplifting</item>
+		<item>Carjacking</item>
+		<item>Truck hijacking</item>
+		<item>Robbery at residential premises</item>
+		<item>Robbery at non-residential premises</item>
+		<item>Culpable homicide</item>
+		<item>Public violence</item>
+		<item>Crimen injuria</item>
+		<item>Neglect and ill-treatment of children</item>
+		<item>Kidnapping</item>
+		</string-array>
+</resources>
